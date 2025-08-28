@@ -42,6 +42,7 @@ public class Person {
         return cpf;
     }
 
+    @Override
     public String toString() {
         return "Cliente: {id=" + id + ", nome='" + name + "', idade=" + age + ", cpf='" + cpf + "'}";
     }
