@@ -11,7 +11,7 @@ public class Person {
 
     public Person(UUID id, String name, int age, String cpf) {
 
-        if (name == null || name.isEmpty()) {
+        if (name == null || name.isBlank()) {
             throw new IllegalArgumentException("O nome não pode ser vazio.");
         }
 
